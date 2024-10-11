@@ -26,13 +26,13 @@ Create and activate a virtual environment to keep your project dependencies isol
 - On **Windows**:
   ```
   python -m venv env
-  env\Scripts\activate
+  .env\Scripts\activate
   ```
 
 - On **Mac/Linux**:
   ```
   python3 -m venv env
-  source env/bin/activate
+  source .env/bin/activate
   ```
 
 3. **Install the Required Dependencies**:
@@ -43,17 +43,23 @@ Install all the required Python packages listed in the `requirements.txt` file:
 After installing the dependencies, apply the database migrations to set up the database schema:
 
 
-5. **Create a Superuser**:
+5. **Create a Superuser (optional)**:
 To access the Django admin interface, create a superuser account:
 
+   ...
+   python manage.py createsuperuser
+   ...
 
 Follow the prompts to set up a username, email, and password.
 
 6. **Run the Development Server**:
 Start the Django development server to test the project locally:
 
+   ...
+   python manage.py runserver
+   ...
 
-7. **Access the Application**:
+7. **Access the Application (optional)**:
 - **Django Admin Interface**: You can manage blog posts via the Django admin at:
   
   ```
