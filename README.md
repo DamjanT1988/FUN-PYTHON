@@ -18,7 +18,9 @@ This is a simple blog application built using Django and Django REST Framework. 
 
 1. **Clone the Repository**:
    First, clone the project from the repository:
-   
+  ```
+git clone https://github.com/DamjanT1988/FUN-PYTHON.git
+  ```   
 
 2. **Set Up a Virtual Environment** (optional but recommended):
 Create and activate a virtual environment to keep your project dependencies isolated.
